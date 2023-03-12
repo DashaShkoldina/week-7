@@ -169,7 +169,7 @@
 @media screen and (max-width: 959px) {
     .container {
         display: grid;
-        grid-template-rows: 5% 25% 40% 20%;
+        grid-template-rows: 5% 1fr 15% 1fr;
     }
 
     .header {
@@ -264,6 +264,7 @@
         background-color: #f8f8f8;
         background-image: url(/assets/images/headerimage-without-text\ 1.png);
         background-repeat: no-repeat;
+        display: none;
 
 
     }
@@ -276,7 +277,7 @@
     .main3 h2 {
         color: rgba(5, 0, 56, 1);
         font-family: 'Roboto', serif;
-        font-size: 48px;
+        font-size: 28px;
         text-align: center;
     }
 
@@ -284,8 +285,6 @@
         color: rgba(5, 0, 56, 1);
         font-family: 'Roboto', serif;
         font-size: 18px;
-        margin-left: 348px;
-        margin-right: 337px;
     }
 
     .main4 {
@@ -293,12 +292,11 @@
 
     }
 
-
     .main4_b {
         text-align: center;
         color: rgba(5, 0, 56, 1);
         font-family: 'Roboto', serif;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .footer {

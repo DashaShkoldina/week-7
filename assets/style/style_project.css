@@ -99,9 +99,12 @@
 
     .main2 {
         grid-area: 2/2/3/3;
-        background-image: url(/assets/images/headerimage-without-text\ 1.png);
-        background-repeat: no-repeat;
-        background-size: 80% 100%;
+        background-color: #f8f8f8;
+    }
+
+    .main2 img {
+        width: 80%;
+        height: 90%;
 
     }
 
@@ -262,11 +265,7 @@
 
     .main2 {
         background-color: #f8f8f8;
-        background-image: url(/assets/images/headerimage-without-text\ 1.png);
-        background-repeat: no-repeat;
         display: none;
-
-
     }
 
     .main3 {
